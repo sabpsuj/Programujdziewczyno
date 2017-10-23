@@ -27,6 +27,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     var borderBottom = document.querySelector('.navbar-fixed-top');
     window.addEventListener('scroll', function () {
-        borderBottom.style.borderBottom = '1px solid #7f7f7f';
+        borderBottom.style.borderBottom = '0.1px solid #7f7f7f';
+    });
+
+    var buttonBottom = document.querySelector('.btn-dark');
+    buttonBottom.addEventListener('click', function () {
+        window.scroll(0, 0);
     });
 });

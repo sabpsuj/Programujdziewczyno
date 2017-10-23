@@ -314,3 +314,15 @@ footer p {
 p.more {
     display: none;
 }
+
+.btn-dark {
+    float: right;
+    margin: 30px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.btn-dark:hover {
+    color: #f58122;
+    background-color: #dddddd;
+}
