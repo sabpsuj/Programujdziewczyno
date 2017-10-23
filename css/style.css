@@ -47,6 +47,10 @@ nav {
     color: #ea6c56;
 }
 
+/*.navbar-fixed-top {
+    border-bottom: 1px solid red;
+}*/
+
 .dropdown {
     display: none;
     background-color: #fff;

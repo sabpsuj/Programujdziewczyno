@@ -25,4 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', showHide);
     }
+    var borderBottom = document.querySelector('.navbar-fixed-top');
+    window.addEventListener('scroll', function () {
+        borderBottom.style.borderBottom = '1px solid #7f7f7f';
+    });
 });
